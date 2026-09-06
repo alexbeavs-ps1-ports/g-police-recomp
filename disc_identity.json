@@ -1,0 +1,43 @@
+{
+  "schema": "psx.redump-disc-set.v1",
+  "discs": [
+    {
+      "index": 1,
+      "cue_name": "G-Police (USA) (Disc 1).cue",
+      "bin_name": "G-Police (USA) (Disc 1).bin",
+      "size": 730742880,
+      "md5": "3194807be261b7d6c06f3a9ae8052585",
+      "sha1": "2161d2860914b21d2bee457b3eda9d8e816d04a2",
+      "crc32": "f43ae67c",
+      "track_count": 1,
+      "tracks": [
+        {
+          "name": "G-Police (USA) (Disc 1).bin",
+          "size": "730742880",
+          "crc": "f43ae67c",
+          "md5": "3194807be261b7d6c06f3a9ae8052585",
+          "sha1": "2161d2860914b21d2bee457b3eda9d8e816d04a2"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "cue_name": "G-Police (USA) (Disc 2).cue",
+      "bin_name": "G-Police (USA) (Disc 2).bin",
+      "size": 728964768,
+      "md5": "d2432e57bb30a2caf02255a418e0ef5e",
+      "sha1": "7f6ba87da62bbe565ba5603de462e3ed7c68429d",
+      "crc32": "ef1a5c8b",
+      "track_count": 1,
+      "tracks": [
+        {
+          "name": "G-Police (USA) (Disc 2).bin",
+          "size": "728964768",
+          "crc": "ef1a5c8b",
+          "md5": "d2432e57bb30a2caf02255a418e0ef5e",
+          "sha1": "7f6ba87da62bbe565ba5603de462e3ed7c68429d"
+        }
+      ]
+    }
+  ]
+}

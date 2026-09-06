@@ -1,0 +1,47 @@
+
+[game]
+name = "G-Police"
+id = "SLUS-00544"
+players = 1
+exe = "disc/SLUS_005.44"
+discs = ["disc/G-Police (USA) (Disc 1).cue", "disc/G-Police (USA) (Disc 2).cue"]
+disc_serials = ["SLUS-00544", "SLUS-00556"]
+load_address = "0x80010000"
+entry_pc = "0x8002E928"
+text_size = "0x00074800"
+stack_base = "0x801FFFF0"
+disc = "disc/G-Police (USA) (Disc 1).cue"
+
+[prepare_disc]
+out_dir = "disc"
+bin_name = "G-Police (USA) (Disc 1).bin"
+cue_name = "G-Police (USA) (Disc 1).cue"
+boot_exe = "SLUS_005.44"
+known_sizes = [730742880]
+known_md5 = ["3194807be261b7d6c06f3a9ae8052585"]
+known_sha1 = ["2161d2860914b21d2bee457b3eda9d8e816d04a2"]
+known_crc32 = ["f43ae67c"]
+
+[recompiler]
+bios_config = "psxrecomp/bios/SCPH5552.toml"
+seeds = "seeds/ghidra_funcs.txt"
+out_dir = "generated"
+strict = true
+
+[runtime]
+window_title = "G-Police Recompiled"
+memcard_dir = "saves"
+openbios = false
+
+[video]
+renderer = "opengl"
+aspect_ratio = "4:3"
+
+[controller]
+default_mode = "digital"
+
+[netplay]
+require_cue = true
+required_tracks = 1
+required_disc_fp = "b25f7e3d9a0089fa31ea3db3fd7e728d86b26e7e94d1038048ebaf5062e02ab0"
+required_disc_fps = ["b25f7e3d9a0089fa31ea3db3fd7e728d86b26e7e94d1038048ebaf5062e02ab0", "ce02333d4541e3b8bb9ee8c762bbea8408f0f1d1e79672fefa78315f4e3f5462"]
