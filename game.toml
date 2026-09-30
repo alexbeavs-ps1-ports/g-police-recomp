@@ -17,13 +17,22 @@ out_dir = "disc"
 bin_name = "G-Police (USA) (Disc 1).bin"
 cue_name = "G-Police (USA) (Disc 1).cue"
 boot_exe = "SLUS_005.44"
-known_sizes = [730742880]
-known_md5 = ["3194807be261b7d6c06f3a9ae8052585"]
-known_sha1 = ["2161d2860914b21d2bee457b3eda9d8e816d04a2"]
-known_crc32 = ["f43ae67c"]
+known_sizes = [730742880, 728964768]
+known_md5 = [
+  "3194807be261b7d6c06f3a9ae8052585",
+  "d2432e57bb30a2caf02255a418e0ef5e",
+]
+known_sha1 = [
+  "2161d2860914b21d2bee457b3eda9d8e816d04a2",
+  "7f6ba87da62bbe565ba5603de462e3ed7c68429d",
+]
+known_crc32 = [
+  "f43ae67c",
+  "ef1a5c8b",
+]
 
 [recompiler]
-bios_config = "psxrecomp/bios/SCPH5552.toml"
+bios_config = "psxrecomp/bios/SCPH1001.toml"
 seeds = "seeds/ghidra_funcs.txt"
 out_dir = "generated"
 strict = true
