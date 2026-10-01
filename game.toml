@@ -40,6 +40,7 @@ strict = true
 [runtime]
 window_title = "G-Police Recompiled"
 memcard_dir = "saves"
+bios_hle = true
 openbios = false
 overlay_cache = true
 
